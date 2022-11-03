@@ -68,7 +68,7 @@ class AuthorController extends Controller
         } else {
             return response()->json([
                 'status' => 404,
-                'message' => 'id atas' . $id . ' tidak ditemukan'
+                'message' => 'id nomor ' . $id . ' tidak ditemukan'
             ], 404);
         }
     }
@@ -132,7 +132,7 @@ class AuthorController extends Controller
         }else{
             return response()->json([
                 'status' => 404,
-                'message' => 'id' . $id .' tidak ditemukan'
+                'message' => 'id nomor ' . $id .' tidak ditemukan'
             ], 404);
         }
     }

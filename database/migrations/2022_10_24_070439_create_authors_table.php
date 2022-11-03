@@ -20,7 +20,7 @@ class CreateAuthorsTable extends Migration
             $table->string('place_of_birth');
             $table->string('gender');
             $table->string('email');
-            $table->string('hp');
+            $table->number('hp');
             $table->timestamps();
         });
     }
